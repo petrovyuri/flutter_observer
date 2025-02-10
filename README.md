@@ -11,7 +11,7 @@
   </tr>
   <tr>
     <td><a href='https://t.me/mobile_developing'>Мобильный разработчик</a></td>
-    <td>Здесь вы найдете все, что касается мобильной разработки и Flutter</td>
+    <td>Здесь вы найдете все, что касается мобильной разработки и Flutter и не только</td>
   </tr>
   <tr>
     <td><a href='https://t.me/madteacher_channel'>MADTeacher</a></td>
