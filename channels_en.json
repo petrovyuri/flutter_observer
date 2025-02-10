@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Flutter Heroes",
+    "url": "https://t.me/flutterDev",
+    "desc": "No information available"
+  },
+  {
+    "name": "Mobile Tech",
+    "url": "https://t.me/mdevnotes",
+    "desc": "Michael Lazebny's blog about @dart and @flutter"
+  },
+  {
+    "name": "Learn Flutter",
+    "url": "https://t.me/pathto_flutter",
+    "desc": "Publish news, tools, tutorial and everything you need to know about Flutter to learn or improve as a Developer"
+  },
+  {
+    "name": "Dart: Tips Of The Day",
+    "url": "https://t.me/dart_tips",
+    "desc": "No information available"
+  }
+]

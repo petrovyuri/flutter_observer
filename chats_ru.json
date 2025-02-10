@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Хижина программиста",
+    "url": "https://t.me/dev_hut",
+    "desc": "Данная группа создана для обсуждения разработки приложений. Мы изучаем Flutter, Android, IOS, backend и еще много чего интересного"
+  },
+  {
+    "name": "Dart & Flutter",
+    "url": "https://t.me/rudart",
+    "desc": "Чат сообщества, посвященный языку Dart и всем что вокруг"
+  },
+  {
+    "name": "Flutter Developers — русскоговорящее сообщество",
+    "url": "https://t.me/flutter_rus",
+    "desc": "Чат сообщества, посвященный Flutter и всем что вокруг"
+  },
+  {
+    "name": "[RU] Dart & Flutter",
+    "url": "https://t.me/ru_dart",
+    "desc": "Нет информации"
+  },
+  {
+    "name": "Flutter Dev Podcast — чат",
+    "url": "https://t.me/flutterdevpodcast",
+    "desc": "Комната для обсуждения Flutter Dev подкаста."
+  }
+]
