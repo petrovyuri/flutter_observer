@@ -100,6 +100,10 @@
     <td><a href='https://t.me/dart_tips'>Dart: Tips Of The Day</a></td>
     <td>No information available</td>
   </tr>
+  <tr>
+    <td><a href='Ссылка на канал ввиде https://t.me/...'>Название канала</a></td>
+    <td>Здесь надо написать что-то про канал</td>
+  </tr>
 </table>
 
 <!-- END CHANNELS EN -->
