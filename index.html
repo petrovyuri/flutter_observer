@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <link rel="stylesheet" href="assets/css/styles.css">
-
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Flutter Resources 🌐</title>
+        <link rel="stylesheet" href="assets/css/styles.css">
         <link rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     </head>
@@ -13,18 +12,41 @@
     <body>
         <header>
             <div class="container">
-                <a href="https://t.me/FlutterObserver_bot"
-                    class="top-right-link" target="_blank">Flutter Observer
-                    Bot</a>
-                <h1>📱 Flutter Observer</h1>
-                <p>Лучшие каналы и чаты для разработчиков Flutter</p>
-                <link rel="stylesheet" href="assets/css/styles.css">
+                <div class="header-content">
+                    <h1>Flutter Observer</h1>
+                    <p>Лучшие каналы и чаты для разработчиков Flutter</p>
+                </div>
+
             </div>
         </header>
 
         <main class="container">
-            <section class="channels-section">
-                <div id="channels-container" class="channels-grid"></div>
+            <section class="section-with-header">
+                <div class="section-header">
+                    <span class="gradient-text">Телеграм каналы</span>
+                </div>
+                <div id="channels_ru-container" class="channels-grid"></div>
+            </section>
+
+            <section class="section-with-header">
+                <div class="section-header">
+                    <span class="gradient-text">Телеграм чаты</span>
+                </div>
+                <div id="chats_ru-container" class="channels-grid"></div>
+            </section>
+
+            <section class="section-with-header">
+                <div class="section-header">
+                    <span class="gradient-text">Telegram channels EN</span>
+                </div>
+                <div id="channels_en-container" class="channels-grid"></div>
+            </section>
+
+            <section class="section-with-header">
+                <div class="section-header">
+                    <span class="gradient-text">Telegram chats EN</span>
+                </div>
+                <div id="chats_en-container" class="channels-grid"></div>
             </section>
         </main>
 
@@ -32,8 +54,8 @@
             <div class="container">
                 <p>© 2025 Petrov Yura</p>
             </div>
-        </body>
+        </footer>
 
         <script src="scripts/main.js"></script>
-
-    </html>
+    </body>
+</html>

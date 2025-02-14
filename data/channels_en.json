@@ -1,22 +1,26 @@
 [
   {
     "name": "Flutter Heroes",
-    "url": "https://t.me/flutterDev",
-    "desc": "No information available"
+    "url": "@flutterDev",
+    "desc": "Flutter Heroes is a community of Flutter developers who are passionate about building beautiful, fast and functional apps.",
+    "photo": "https://cdn4.cdn-telegram.org/file/oZPvWGTP93Gqv-EV0jLrkngBvEbi8fCRk6ejZO_YUIPfu9pKJqcWEI_ewZuZMrP1CmrgVwrA0Itmm7Rcq966x8T0ae8kvbfX8e166yrJIXDviQ-rnmvdio1w-XQA1ZdscJ3KsM6QGiDAGa4FerTW7p3gPnoflv1l8kEEgBqRp6Qj0vnU9LJHlCcJVBRRyIXMwUep3j9TQg6FgAsSMDbqNL7zz8_S3AQbmqNO0wdxN9YReF47D3VGR_Ho3HDib5A8igBCfo1U6vtua7b2B047DAYknMgJ1KZPbGFj5nOcI0pPS8Qlz_qQtKp0ekRW2XaOs8_r6MFHfI0l_TzEXsywrg.jpg"
   },
   {
     "name": "Mobile Tech",
-    "url": "https://t.me/mdevnotes",
-    "desc": "Michael Lazebny's blog about @dart and @flutter"
+    "url": "@mdevnotes",
+    "desc": "Michael Lazebny's blog about @dart and @flutter",
+    "photo": "https://cdn4.cdn-telegram.org/file/J2JD1gmDCOyY577g61_lRtG71vsSvo1_f0VZ_h-OrOiBK_tCWjGdhFAOmzsdaHoOm8C8o7hu3b8pKa44wwIypHSwDsSRctklNl7WVR_AhksgspKviZCdOqiGGGZ9S0gFjJKldyWI2tLHXrtp9uO4JXQ5_cweysuTq9ZbMJcJcB7eCB-_vr3VugzanyASccEleSO6wmAOR6qIt9wHuN4jUAtKkLRT_RrmeMhdA52aMbBwy0vSuJHFsIlzceFHqZ99HL_N9BdY4DQwdHfeECZcVThlp5ZLi4RuJFRyCieDXgPyzvVDjUadPHXrweGZIsmntd1T9ltrxolcw-T3soR6vg.jpg"
   },
   {
     "name": "Learn Flutter",
-    "url": "https://t.me/pathto_flutter",
-    "desc": "Publish news, tools, tutorial and everything you need to know about Flutter to learn or improve as a Developer"
+    "url": "@pathto_flutter",
+    "desc": "Publish news, tools, tutorial and everything you need to know about Flutter to learn or improve as a Developer",
+    "photo": "https://cdn4.cdn-telegram.org/file/dgSKsEIlm9DhGyvL6XOups7mR7RDbGhHRZ8LmiVvdxiZB0kgg51XJ4ZsB693J_sCf2TxVjIAA4Oodj8Qx3q_2mIbuvYsGYnSSSbLZxt6gX8VEdJOzHJ6aiVmM_lZxFEcxnSlaYKmBNWdUQe5pxRBbeYKIn7LUIXk2B5ABFM2royh2--Y4jtQQv3ll5gRQw-VGEaptNZNKBEDO6XixbJthh6XvCknZ2BUD8KINTtNfGKdVge_GIGlw6KFG9IDw107TDjHj_76Exx8nox0E6wZ2SAZkHdPKFy85Nehuq20zldSwvLpG_krPwrMNX1mLoEt1-LG8Z2ORTtcGqUux8A-Ig.jpg"
   },
   {
     "name": "Dart: Tips Of The Day",
-    "url": "https://t.me/dart_tips",
-    "desc": "No information available"
+    "url": "@dart_tips",
+    "desc": "Daily tips about Dart programming language",
+    "photo": "https://cdn4.cdn-telegram.org/file/hr7E2VJuU0LDuQTdT0AK9CsxfvOGHCfEV4r8jMQq3qn0wOAOzNauIrC58dQGcwzlbTBFDn7TnfvXbOVeS67dLUyF8I59n8VDDfZkv4gatV3oGqSZCuak1iTZyI70pt_ddUoxP4aWVPnvDuphY-UgKOCmEGTMFE7GiyA76N9amCIAtWWH-r5P4fCArlinU0jc6L4EUXohtMN8NYwkzavKLH7TwDEiWWJmN3kVwhB_uWjySUORXVqH3AaLdAADKBrhlG-gNHU1yiFcICTQbXV5FPo6XK5OMA2vzQJ6n2cfXY7xE7xrGRJDiW7VQkYqbcJ6T3ZynnhcMGLPGFfJKuoMjQ.jpg"
   }
 ]

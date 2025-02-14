@@ -1,18 +1,21 @@
 document.addEventListener('DOMContentLoaded', () => {
-    loadChannels();
+    loadData("chats_ru");
+    loadData("chats_en");
+    loadData("channels_ru");
+    loadData("channels_en");
 });
 
-async function loadChannels() {
+async function loadData(str) {
     try {
-        const response = await fetch('data/channels_ru.json');
+        const response = await fetch(`data/${str}.json`);
         if (!response.ok) throw new Error(`Ошибка HTTP: ${response.status}`);
-        
+
         const channels = await response.json();
-        const container = document.getElementById('channels-container');
+        const container = document.getElementById(`${str}-container`);
         container.innerHTML = '';
 
         channels.forEach(channel => {
-            const card = createChannelCard(channel);
+            const card = createCard(channel);
             container.appendChild(card);
         });
 
@@ -21,13 +24,16 @@ async function loadChannels() {
     }
 }
 
-function createChannelCard(channel) {
-    const card = document.createElement('div');
+function createCard(data) {
+    const card = document.createElement('a'); 
     card.className = 'channel-card';
-    
-    const avatarHTML = createAvatarTemplate(channel);
+    card.href = `https://t.me/${data.url.replace(/^@/, '')}`;
+    card.target = "_blank";
+    card.rel = "noopener noreferrer";
+
+    const avatarHTML = createAvatarTemplate(data);
     const delay = Math.floor(Math.random() * 300);
-    
+
     card.innerHTML = `
         <div class="card-content">
             <div class="channel-header">
@@ -35,51 +41,44 @@ function createChannelCard(channel) {
                     ${avatarHTML}
                 </div>
                 <div class="channel-info">
-                    <h3 class="channel-title">${channel.name}</h3>
-                    <div class="channel-url">${channel.url}</div>
+                    <h3 class="channel-title">${data.name}</h3>
+                    ${data.link ? `<span class="channel-link">${data.link}</span>` : ''}
                 </div>
             </div>
-            <p class="channel-description">${channel.desc}</p>
-            <div class="card-footer">
-                <a href="${channel.url}" class="open-button" target="_blank">
-                    <i class="fas fa-external-link-alt"></i>
-                    Открыть
-                </a>
-            </div>
+            <p class="channel-description">${data.desc}</p>
         </div>
     `;
-    
+
     return card;
 }
 
-function createAvatarTemplate(channel) {
+function createAvatarTemplate(data) {
     const defaultAvatar = 'assets/default_avatar.png';
-    
-    if (channel.photo) {
+
+    if (data.photo) {
         return `
-            <img src="${channel.photo}" 
+            <img src="${data.photo}" 
                  class="channel-avatar" 
-                 alt="${channel.name}"
+                 alt="${data.name}"
                  loading="lazy"
                  onerror="this.src='${defaultAvatar}'; this.onerror=null;">
         `;
     }
-    
+
     return `
         <img src="${defaultAvatar}" 
              class="channel-avatar" 
-             alt="${channel.name}"
+             alt="${data.name}"
              loading="lazy">
     `;
 }
 
-function handleLoadingError(error) {
+function handleLoadingError(error, container) {
     console.error('Ошибка загрузки:', error);
-    const container = document.getElementById('channels-container');
     container.innerHTML = `
-        <div class="error-container">
-            <div class="error-icon">⚠️</div>
-            <p>Не удалось загрузить данные. Пожалуйста, проверьте подключение к интернету.</p>
+        <div class="error-container">    
+            <h2>Ошибка загрузки данных</h2>
+            <p>${error.message}</p>
         </div>
     `;
 }
