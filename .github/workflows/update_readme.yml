@@ -7,22 +7,23 @@ on:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     permissions:
       contents: write
-      pull-requests: write
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
         with:
-          ref: ${{ github.event.pull_request.head.ref }}
-          token: ${{ secrets.PAT_TOKEN }} 
-          persist-credentials: true
+          ref: ${{ github.event.pull_request.head.ref }}  # Берём ветку PR
 
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install --upgrade pip
 
       - name: Generate Updated README
         run: python update_readme.py
@@ -31,4 +32,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "🔄 Автоматическое обновление README"
-          branch: ${{ github.event.pull_request.head.ref }}
+          branch: ${{ github.event.pull_request.head.ref }}  # Коммитим в ту же ветку PR
