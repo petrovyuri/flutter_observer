@@ -9,10 +9,6 @@
         --bg: #f8f9fa;
         --text: #2c3e50;
     }
-
-    .section {
-        background: white;
-    }
 }
 
 * {
@@ -29,9 +25,10 @@ body {
 }
 
 .container {
+    width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 2rem;
+    padding: 0 20px;
 }
 
 header {
@@ -48,58 +45,81 @@ h1 {
     margin-bottom: 1rem;
 }
 
-.section {
-    background: #2d2d2d;
-    border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    padding: 2rem;
-    margin-bottom: 2rem;
-    transition: transform 0.2s;
+.channels-section {
+    margin: 3rem 0;
 }
 
-.section:hover {
-    transform: translateY(-3px);
+.channels-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 1rem 0;
 }
 
-h2 {
-    color: var(--primary);
-    margin-bottom: 1.5rem;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-}
-
+/* Унифицированные стили карточки */
 .channel-card {
-    padding: 1.5rem;
-    border: 1px solid #333;
-    border-radius: 8px;
-    margin-bottom: 1rem;
+    position: relative;
+    min-height: 200px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: background-color 0.3s;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 12px;
+    background: var(--bg);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .channel-card:hover {
-    background: #333;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
-a {
+.card-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.channel-header {
+    margin-bottom: 1rem;
+}
+
+.channel-title {
+    font-size: 1.3rem;
     color: var(--primary);
-    text-decoration: none;
-    font-weight: 500;
+    margin: 0;
 }
 
-a:hover {
-    text-decoration: underline;
+.channel-description {
+    flex-grow: 1;
+    color: rgba(255, 255, 255, 0.8);
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
 }
 
-.badge {
-    background: #e8f3ff;
-    color: var(--primary);
-    padding: 0.3rem 0.8rem;
-    border-radius: 20px;
-    font-size: 0.9rem;
+.card-footer {
+    margin-top: auto;
+    text-align: right;
+}
+
+.open-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    background: var(--primary);
+    color: white !important;
+    border-radius: 8px;
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+}
+
+.open-button:hover {
+    background: #1a6ecd;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
 }
 
 .top-right-link {
@@ -119,75 +139,126 @@ a:hover {
     background: var(--primary);
     color: white;
 }
-/* Добавьте эти стили в ваш styles.css */
 
-.channel-card {
-    padding: 1.5rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
-    margin-bottom: 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    transition: all 0.3s ease;
-    background: var(--bg);
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-}
-
-.channel-card:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
-}
-
-.channel-content {
-    flex-grow: 1;
-    margin-right: 1.5rem;
-}
-
-.channel-title {
-    font-size: 1.1rem;
-    font-weight: 600;
-    margin-bottom: 0.5rem;
-    color: var(--text);
-}
-
-.channel-description {
-    font-size: 0.9rem;
-    color: rgba(var(--text), 0.8);
-    line-height: 1.4;
-}
-
-.join-button {
-    background: var(--primary);
-    color: white !important;
-    padding: 0.6rem 1.5rem;
-    border-radius: 8px;
-    font-weight: 500;
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    transition: all 0.3s ease;
-    text-decoration: none !important;
-    border: 2px solid transparent;
-}
-
-.join-button:hover {
-    background: rgba(var(--primary), 0.9);
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(var(--primary), 0.25);
-}
-
-.join-button i {
-    font-size: 0.9rem;
-}
-
+/* Светлая тема */
 @media (prefers-color-scheme: light) {
     .channel-card {
-        border-color: rgba(0, 0, 0, 0.05);
         background: white;
+        border-color: rgba(0, 0, 0, 0.05);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
     }
     
     .channel-description {
         color: rgba(0, 0, 0, 0.7);
+    }
+    
+    .open-button {
+        background: var(--primary);
+    }
+    
+    .top-right-link {
+        background: var(--primary);
+        color: white;
+    }
+    
+    .top-right-link:hover {
+        background: #1a6ecd;
+    }
+}
+
+.channel-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.channel-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 2px solid var(--primary);
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.channel-info {
+    flex: 1;
+    min-width: 0;
+}
+
+.channel-title {
+    font-size: 1.2rem;
+    margin: 0 0 0.3rem 0;
+    color: var(--text);
+}
+
+.channel-link {
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.channel-link:hover {
+    color: var(--primary);
+}
+
+@media (prefers-color-scheme: light) {
+    .channel-link {
+        color: rgba(0, 0, 0, 0.6);
+    }
+    
+    .channel-title {
+        color: var(--text);
+    }
+}
+
+.avatar-wrapper {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+}
+
+.channel-avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 2px solid var(--primary);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.avatar-fallback {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid var(--primary);
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.avatar-fallback span {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+@media (prefers-color-scheme: light) {
+    .channel-avatar {
+        background: rgba(0, 0, 0, 0.05);
     }
 }
