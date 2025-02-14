@@ -76,6 +76,10 @@
     <td><a href='https://t.me/ohmyflutter'>Oh, my Flutter</a></td>
     <td>Всё о Flutter-разработке. Новости, статьи, анонсы, вакансии и многое другое</td>
   </tr>
+  <tr>
+    <td><a href='https://t.me/flutter_homework'>Flutter Homework</a></td>
+    <td>Общение выпускников курса по Flutter в Отусе, но будем рады и всем другим разработчикам. Обсуждаем разные темы, помогаем выполнять задания. Постоянно обновляем список полезных ресурсов по Flutter</td>
+  </tr>
 </table>
 
 <!-- END CHANNELS RU -->
