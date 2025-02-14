@@ -12,8 +12,7 @@ async function loadChannels() {
         container.innerHTML = '';
 
         channels.forEach(channel => {
-            const username = extractUsername(channel.url);
-            const card = createChannelCard(channel, username);
+            const card = createChannelCard(channel);
             container.appendChild(card);
         });
 
@@ -22,22 +21,11 @@ async function loadChannels() {
     }
 }
 
-function extractUsername(url) {
-    try {
-        const cleanUrl = url.replace(/\/+$/g, '');
-        const parsed = new URL(cleanUrl);
-        return parsed.pathname.split('/')[1] || 'unknown';
-    } catch (e) {
-        console.error('Некорректный URL:', url);
-        return 'unknown';
-    }
-}
-
-function createChannelCard(channel, username) {
+function createChannelCard(channel) {
     const card = document.createElement('div');
     card.className = 'channel-card';
     
-    const avatarHTML = createAvatarTemplate(username, channel.name);
+    const avatarHTML = createAvatarTemplate(channel);
     const delay = Math.floor(Math.random() * 300);
     
     card.innerHTML = `
@@ -64,31 +52,25 @@ function createChannelCard(channel, username) {
     return card;
 }
 
-function createAvatarTemplate(username, channelName) {
-    const initial = channelName[0].toUpperCase();
-    const color = getColorForName(channelName);
+function createAvatarTemplate(channel) {
+    const defaultAvatar = 'assets/default_avatar.png';
+    
+    if (channel.photo) {
+        return `
+            <img src="${channel.photo}" 
+                 class="channel-avatar" 
+                 alt="${channel.name}"
+                 loading="lazy"
+                 onerror="this.src='${defaultAvatar}'; this.onerror=null;">
+        `;
+    }
     
     return `
-        <img src="https://t.me/i/${username}/avatar" 
+        <img src="${defaultAvatar}" 
              class="channel-avatar" 
-             alt="${channelName}"
-             loading="lazy"
-             onerror="this.classList.add('hidden'); this.nextElementSibling.classList.remove('hidden')">
-        <div class="avatar-fallback hidden" style="background: ${color}">
-            <span>${initial}</span>
-        </div>
+             alt="${channel.name}"
+             loading="lazy">
     `;
-}
-
-function getColorForName(name) {
-    const colors = [
-        'linear-gradient(135deg, #FF6B6B 0%, #FF8E8E 100%)',
-        'linear-gradient(135deg, #4ECDC4 0%, #88E0D0 100%)',
-        'linear-gradient(135deg, #45B7D1 0%, #7BD3EA 100%)',
-        'linear-gradient(135deg, #96CEB4 0%, #B8E994 100%)',
-        'linear-gradient(135deg, #FFEEAD 0%, #FFFDA2 100%)'
-    ];
-    return colors[name.length % colors.length];
 }
 
 function handleLoadingError(error) {
