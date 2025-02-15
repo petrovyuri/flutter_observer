@@ -20,7 +20,7 @@
   </tr>
   <tr>
     <td style='text-align:center; vertical-align:middle;'>
-        <div style="width:100px; height:100px; display:flex; justify-content:center; align-items:center; overflow:hidden; border-radius:8px;">
+        <div style="width:100px; height:100px;  justify-content:center; align-items:center; overflow:hidden; border-radius:8px;">
             <img src="assets/photo/QjXAexDzcE8SVSLwNzoBTb2vJ3c6nKeG4RI00EvI_XDhus1jWM9XFktr1aPCTMufrZ0nNZPaTtttlIkcK8LwAEwad6qnXE0sFcWh4G47bDEUET2kaUJfGaRlr-suzjFURqFn2_ng_bdsi_gL-YiWlOfBAScTSQEh7uXf3RJcvz7MqRZTpvKM4omnSWKB4-FYyQbl-k4cpVzaa6QtPKWDcmsVFSGS6T9kKDrHyaym3eVEskfIZ_6fmRnYF.jpg" alt="Фото" style="width:100px; height:100px; object-fit:cover;"/>
         </div></td>
     <td><a href='@mobile_developing'>Мобильный разработчик | Петров Юрий</a></td>
