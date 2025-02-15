@@ -24,9 +24,9 @@ def generate_table(items):
 
     table = """<table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
 <colgroup>
-    <col style="width: 100px; min-width: 100px; max-width: 100px;">
-    <col style="width: 250px; min-width: 250px; max-width: 250px;">
-    <col style="width: 400px; min-width: 400px; max-width: 400px;">
+    <col style="width: 20%;">
+    <col style="width: 30%;">
+    <col style="width: 50%;">
 </colgroup>
     """
 
@@ -48,10 +48,8 @@ def generate_table(items):
         # Фиксируем отступы и перемещаем внутрь цикла
         photo_html = f"""
         <div style="
-            width: 100px; 
-            height: 100px; 
-            min-width: 100px;
-            min-height: 100px;
+            width: 100%; 
+            height: 100%; 
             display: flex; 
             justify-content: center; 
             align-items: center; 
@@ -62,8 +60,8 @@ def generate_table(items):
             <img src="{photo}" 
                 alt="Фото" 
                 style="
-                    width: 100px; 
-                    height: 100px; 
+                    width: 100%; 
+                    height: 100%; 
                     max-width: 100px;
                     max-height: 100px;
                     object-fit: cover;
