@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Хижина программиста",
+    "url": "@dev_hut",
+    "desc": "Данная группа создана для обсуждения разработки приложений. Мы изучаем Flutter, Android, IOS, backend и еще много чего интересного",
+    "photo": "assets/photo/fL7l1uaeFeedbOaYghm2PHMIxvInNaZj5_jhfXT1an76G9_E7ymHxMyqDKXp_6EXpDem9IEBwtePNXDjNuPNGhhiZyiVetkilRP-y5p6kbrQiVvZ44hG5_XXBex68b6_WAXstlLVgAX-W1EZjpzlMczcEvDUfcHgoGvdDFJFSmrcNq1ypM365s5dQpcZYdfvjDf0xMYNdQyIMhOFpXZgM9M2n_qB_UmgEHIqPBjyyU6ceDT9E-Z8DFyUI.jpg"
+  },
+  {
+    "name": "Dart & Flutter",
+    "url": "@rudart",
+    "desc": "Чат сообщества, посвященный языку Dart и всем что вокруг",
+    "photo": "assets/photo/BLKbuf94aId4vrcMFGGZLcVH3njE6X_PSe4BUGZzH-WkWTct3d71rXBl6MKEWXOJam2okNs4zCJgB9J3SEdV9O4gRVWxQ0KkfA9gIT1vE1Hcvd7mFFAKMW2RLJ3iboY9BE32ieAKfb1EU6d7fQn6Jfejwus1Ar-dq5Q3yGEh6ZgaM0j9hln-0Cgx6aXLkZnLJOpDH11MHldFy_KA1xGOLdoJFjNSlPEMWIDmMcBhb_EtuvVDfoSzh8Me5.jpg"
+  },
+  {
+    "name": "Flutter Developers — русскоговорящее сообщество",
+    "url": "@flutter_rus",
+    "desc": "Чат сообщества, посвященный Flutter и всем что вокруг",
+    "photo": "assets/photo/Wysn6oY2Xe09M1LSNa2kxL0YeMS-eHU-W5HjYAzAzXZ3wlhG6MGfbmrHivpP0-Ky5cbYnd0XjsrbDNaJ6m2JWQPTzt_lirBIbOaBvNstwRBrb7VploLjNZIjCqiT2ub05oQgs9LqzWgcEizHyygkpmcuXQBp34OBfDb1SPWbUgLeO7eYd-TKbB901u1XXvxWFDNAunyTNxjkewlklCzoNuPwMyt34dNS1tpHTpt-7FDw6nh-REvCUEU8C.jpg"
+  },
+  {
+    "name": "[RU] Dart & Flutter",
+    "url": "@ru_dart",
+    "desc": "Чат сообщества, посвященный Flutter и Dart",
+    "photo":"assets/photo/CiW4wd2exlh7m-0IsyNw05JsrZT5boANHz8wvoaELtseMR4EreJy_C_3kPNdLI-G67Rvr7eUPF33S6Ht63QDsxke7kyn7FEtx4PQivnLbAH9V_7lBg5svCT7aglamsXeELGp-MeoY0fNLa7MZQo9F9ZoQURaRU3HimqrFMZeSLOewP7GbMnKUaqyU48oPF3Edv4iSH0tge2HOubuEZoW0QgSbMBLGVdJ_-NpTcwPdljREKREmMMOaJ51Z.jpg"
+  },
+  {
+    "name": "Flutter Dev Podcast — чат",
+    "url": "@flutterdevpodcast",
+    "desc": "Комната для обсуждения Flutter Dev подкаста",
+    "photo":"assets/photo/hWGfA0XNfUWc332mt_xyW8otgwbJPzBJCgebyireQu5XkJe3QcD7fprvYNkypi4xKdAObWMbZM3JSDliJLy8Wnnkm-HqsmZJh_NvuMcE3pGlp18l5b1pPd_5RGOaZYUYGnB2kRYqXA7mbkUpwc2NAMvUWVjeIl9EImAXaJIiPKaAKBSEeIeVRnx9ut9nonbWFdkuib_zT5zQMz_ym9JT85zZG6vhx7Jq3KTIQdd_Ui6aWxAGHZydrTtjv.jpg"
+  }
+]

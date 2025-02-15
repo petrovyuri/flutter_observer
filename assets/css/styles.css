@@ -1,0 +1,232 @@
+:root {
+    --primary: #2D8CFF;
+    --bg: #1a1a1a;
+    --text: #ffffff;
+}
+
+
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --bg: #f8f9fa;
+        --text: #2c3e50;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', system-ui;
+    line-height: 1.6;
+    background: var(--bg);
+    color: var(--text);
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    padding: 0.3rem 0;
+    background: linear-gradient(135deg, var(--primary), #6c5ce7);
+    color: white;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 2.8rem;
+    color: var(--text);
+}
+
+.channels-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.channel-card {
+    display: block;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    text-decoration: none;
+    color: inherit;
+    transition: transform 0.3s ease, 
+               box-shadow 0.3s ease, 
+               border-color 0.3s ease;
+}
+
+.channel-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--primary);
+}
+
+.channel-description {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 1rem;
+}
+
+.channel-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.channel-title {
+    font-size: 1.2rem;
+    margin: 0 0 0.3rem 0;
+}
+
+.avatar-wrapper {
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+.channel-avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    border: 2px solid var(--primary);
+}
+
+.section-with-header {
+    margin: 1rem 0;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+}
+
+.gradient-text {
+    font-size: 2.2rem;
+    font-weight: 600;
+    background: linear-gradient(135deg, var(--primary), #6c5ce7);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    padding: 0 1rem;
+    position: relative;
+}
+
+.gradient-text::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 3px;
+    background: linear-gradient(90deg,
+            rgba(45, 140, 255, 0) 0%,
+            var(--primary) 50%,
+            rgba(45, 140, 255, 0) 100%);
+}
+
+.track-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    background: rgba(255, 255, 255, 0.1);
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    border: 1px solid rgba(66, 118, 215, 0.2);
+    transition: all 0.3s ease;
+    flex-shrink: 0;
+}
+
+.track-button:hover {
+    background: var(--primary);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(45, 140, 255, 0.3);
+}
+
+@media (max-width: 768px) {
+    .gradient-text {
+        font-size: 1.8rem;
+    }
+    
+    .header-content {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .track-button {
+        align-self: flex-end;
+        padding: 8px 15px;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    .track-button {
+        background: rgba(0, 0, 0, 0.05);
+        color: var(--text);
+        border-color: rgba(0, 0, 0, 0.1);
+    }
+    
+    .track-button:hover {
+        background: var(--primary);
+        color: white;
+    }
+    
+    .channel-card {
+        border-color: rgba(0, 0, 0, 0.05);
+    }
+    
+    .channel-description {
+        color: rgba(0, 0, 0, 0.7);
+    }
+}
+@media (max-width: 768px) {
+    .section-header-content {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+    
+    .track-button {
+        align-self: flex-end;
+    }
+}
+
+.section-header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+}
+
+.header-subcontent {
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+}
+.header-subcontent p {
+    margin-bottom: 0.5rem;
+}
+
+.header-subcontent a {
+    align-self: flex-end;
+}
+

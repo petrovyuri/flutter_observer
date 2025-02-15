@@ -1,0 +1,21 @@
+[
+  {
+    "name": "Dart | Flutter",
+    "url": "@dartlang_group",
+    "desc": "Dart and Flutter community",
+    "photo": "assets/photo/ZeMA_zCP_jdHcWQy-tVy6PtDJFkatbcBkzw3zBKSKqtW6EDyhPQdquRD5DLsOygW_SZ0SsBWT4z1cUlPywIqt_ZRA-19mlW2aaoqSxqYfHTAoCPStftPkd1TJTHX7ICtJ2H_D9oYASE_cyhkSWOiOk-MVsIFBYfab-YBbxmfS4N8VxqJjvEYTzgwC0s5f9oK1oPeIHm3igDk9aGwJRcpMy5P_jrVnwkBiwC8C7Mx4vZvK_LP7NX-6kHfv.jpg"
+
+  },
+  {
+    "name": "Flutter | Dart | UK",
+    "url": "@flutter_uk",
+    "desc": "People, who love Flutter and living in UK",
+    "photo": ""
+  },
+  {
+    "name": "[EN] Dart & Flutter",
+    "url": "@en_dart",
+    "desc": "EN Dart and Flutter community",
+    "photo": "assets/photo/uhAFjtaBd3AV_LQ_Z8lcwIx1ELlNRP2oUwQHOStWO5ia5aNO13Ukul_dTJS6oNJ90c8omDf3GBdDGzLJa1c_KwMTyrWUFapnlmZCZh6cqsQE0h88qMfJZbYcI9NYxgvJdig__ukbkd59S0vlxU3Z1c8SH6W_YpbzPn3iChUFZUheptxRX7iYMJfc-sPnsfUcDL45jBoSE9-9zLgburPgJ-r1TA8LxR0FyjAZzjNOJ10XKaRRIzuC4D7QF.jpg"
+  }
+]

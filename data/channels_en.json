@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Flutter Heroes",
+    "url": "@flutterDev",
+    "desc": "Flutter Heroes is a community of Flutter developers who are passionate about building beautiful, fast and functional apps.",
+    "photo": "assets/photo/oZPvWGTP93Gqv-EV0jLrkngBvEbi8fCRk6ejZO_YUIPfu9pKJqcWEI_ewZuZMrP1CmrgVwrA0Itmm7Rcq966x8T0ae8kvbfX8e166yrJIXDviQ-rnmvdio1w-XQA1ZdscJ3KsM6QGiDAGa4FerTW7p3gPnoflv1l8kEEgBqRp6Qj0vnU9LJHlCcJVBRRyIXMwUep3j9TQg6FgAsSMDbqNL7zz8_S3AQbmqNO0wdxN9YReF47D3VGR_Ho3.jpg"
+  },
+  {
+    "name": "Mobile Tech",
+    "url": "@mdevnotes",
+    "desc": "Michael Lazebny's blog about @dart and @flutter",
+    "photo": "assets/photo/fT5NvA0JAepjK03bBm7qgje4vRXGsCD6SRIQdPiQgZj2qAHFTT9b20L7DCS0Zt0WXLnQq6td2lx08kF43_YdhnzLOrlxoC8G38ghpUiUm1nWCfAxlaC_7O1GRjxcYbqaUopvUFxRqiFZ0k1zcpawSpwIU_FEeBm8986qDSV19c-bNXplFMXIRujbonXCZLGyQFxN_vmit56V3UKkoNcF1fIAz7_mqz2-h0G2CZBzfJQYoUMweN8-lWEAn.jpg"
+  },
+  {
+    "name": "Learn Flutter",
+    "url": "@pathto_flutter",
+    "desc": "Publish news, tools, tutorial and everything you need to know about Flutter to learn or improve as a Developer",
+    "photo": "assets/photo/dgSKsEIlm9DhGyvL6XOups7mR7RDbGhHRZ8LmiVvdxiZB0kgg51XJ4ZsB693J_sCf2TxVjIAA4Oodj8Qx3q_2mIbuvYsGYnSSSbLZxt6gX8VEdJOzHJ6aiVmM_lZxFEcxnSlaYKmBNWdUQe5pxRBbeYKIn7LUIXk2B5ABFM2royh2--Y4jtQQv3ll5gRQw-VGEaptNZNKBEDO6XixbJthh6XvCknZ2BUD8KINTtNfGKdVge_GIGlw6KFG.jpg"
+  },
+  {
+    "name": "Dart: Tips Of The Day",
+    "url": "@dart_tips",
+    "desc": "Daily tips about Dart programming language",
+    "photo": "assets/photo/hr7E2VJuU0LDuQTdT0AK9CsxfvOGHCfEV4r8jMQq3qn0wOAOzNauIrC58dQGcwzlbTBFDn7TnfvXbOVeS67dLUyF8I59n8VDDfZkv4gatV3oGqSZCuak1iTZyI70pt_ddUoxP4aWVPnvDuphY-UgKOCmEGTMFE7GiyA76N9amCIAtWWH-r5P4fCArlinU0jc6L4EUXohtMN8NYwkzavKLH7TwDEiWWJmN3kVwhB_uWjySUORXVqH3AaLd.jpg"
+  }
+]
