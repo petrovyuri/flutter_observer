@@ -25,7 +25,7 @@ def generate_table(items):
     table = """<table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
 <colgroup>
     <col style="width: 90px;">
-    <col style="width: 200px;">
+    <col style="width: 250px;">
     <col style="width: 400px;">
 </colgroup>
     """
@@ -47,7 +47,7 @@ def generate_table(items):
 
         photo_html = f"""
         <div style="width:100px; height:100px; display:flex; justify-content:center; align-items:center; overflow:hidden; border-radius:8px;">
-            <img src="{photo}" alt="Фото" style="width:100%; height:100%; object-fit:cover;"/>
+            <img src="{photo}" alt="Фото" style="width:100px; height:100px; object-fit:cover;"/>
         </div>"""
 
         table += f"  <tr>\n"
