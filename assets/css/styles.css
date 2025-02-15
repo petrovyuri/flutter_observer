@@ -93,8 +93,8 @@ h1 {
 }
 
 .avatar-wrapper {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     flex-shrink: 0;
 }
 
@@ -230,8 +230,3 @@ h1 {
     align-self: flex-end;
 }
 
-.small-button {
-    font-size: 0.85rem;
-    padding: 0.4rem 1rem;
-    margin-top: 0.5rem;
-}
