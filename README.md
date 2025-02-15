@@ -1,7 +1,7 @@
 # 📚 Flutter Observer
 Лучшие каналы и чаты для разработчиков Flutter
 
-[![Посетить сайт](https://img.shields.io/badge/-Посетить%20сайт-%23007BFF?style=for-the-badge&logo=telegram&logoColor=white)](https://petrovyuri.github.io/flutter_observer/)
+[![Посетить сайт](https://img.shields.io/badge/-Посетить%20сайт-%23007BFF?style=for-the-badge&logo=web&logoColor=white)](https://petrovyuri.github.io/flutter_observer/)
 
 [![Посетить бота](https://img.shields.io/badge/-Отслеживать%20изменения%20в%20боте-%23007BFF?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/FlutterObserver_bot)
 
