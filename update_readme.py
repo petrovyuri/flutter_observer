@@ -3,10 +3,10 @@ import re
 
 README_FILE = "README.md"
 JSON_FILES = {
-    "CHANNELS RU": "channels_ru.json",
-    "CHANNELS EN": "channels_en.json",
-    "CHATS RU": "chats_ru.json",
-    "CHATS EN": "chats_en.json",
+    "CHANNELS RU": "data/channels_ru.json",
+    "CHANNELS EN": "data/channels_en.json",
+    "CHATS RU": "data/chats_ru.json",
+    "CHATS EN": "data/chats_en.json",
 }
 
 def load_json(filename):
@@ -18,21 +18,67 @@ def load_json(filename):
 
 def generate_table(items):
     if not items:
-        return "_Данных пока нет_\n\n"
+        return "Данных пока нет_\n\n"
 
-    table = "<table>\n"
+    default_photo = "assets/default_avatar.png"
+
+    table = """<table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
+<colgroup>
+    <col style="width: 20%;">
+    <col style="width: 30%;">
+    <col style="width: 50%;">
+</colgroup>
+    """
+
     table += "  <tr>\n"
-    table += '    <th style="width: 60%;">Название</th>\n'
-    table += '    <th style="width: 40%;">Описание</th>\n'
+    table += '    <th>Фото</th>\n'
+    table += '    <th>Название</th>\n'
+    table += '    <th>Описание</th>\n'
     table += "  </tr>\n"
 
     for item in items:
         if not isinstance(item, dict):
             continue 
+        
         name = item.get("name", "Без названия")
-        url = item.get("url", "#")
+        url_src = item.get("url", "#")
+
+        if url_src.startswith("@"):
+            full_url = f"https://t.me/{url_src[1:]}"
+        else:
+            full_url = url_src
+
         desc = item.get("desc", "").replace("\n", " ")
-        table += f"  <tr>\n    <td><a href='{url}'>{name}</a></td>\n    <td>{desc}</td>\n  </tr>\n"
+        photo = item.get("photo", "").strip() or default_photo
+
+        photo_html = f"""
+        <div style="
+            width: 100%; 
+            height: 100%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            overflow: hidden; 
+            border-radius: 8px;
+            background: #f0f0f0;
+            border: 1px solid #ddd;">
+            <img src="{photo}" 
+                alt="Фото" 
+                style="
+                    width: 100%; 
+                    height: 100%; 
+                    max-width: 100px;
+                    max-height: 100px;
+                    object-fit: cover;
+                    display: block;">
+        </div>
+        """
+
+        table += f"  <tr>\n"
+        table += f"    <td style='text-align:center; vertical-align:middle;'>{photo_html}</td>\n"
+        table += f"    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='{full_url}'>{name}</a></td>\n"
+        table += f"    <td style='word-wrap: break-word;'>{desc}</td>\n"
+        table += f"  </tr>\n"
 
     table += "</table>\n\n"
     return table
