@@ -20,7 +20,7 @@ def generate_table(items):
     if not items:
         return "_Данных пока нет_\n\n"
 
-    default_photo = "assets/default_avatar.png" 
+    default_photo = "assets/default_avatar.png"
 
     table = "<table>\n"
     table += "  <tr>\n"
@@ -37,9 +37,10 @@ def generate_table(items):
         url = item.get("url", "#")
         desc = item.get("desc", "").replace("\n", " ")
         photo = item.get("photo", "").strip() or default_photo
+
         photo_html = f"""
-        <div style="width:50px; height:50px; overflow:hidden; display:flex; justify-content:center; align-items:center; border-radius:8px;">
-            <img src="{photo}" alt="Фото" style="width:100%; height:100%; object-fit:cover;" />
+        <div style="width:100px; height:100px; overflow:hidden; display:flex; justify-content:center; align-items:center; border-radius:8px;">
+            <img src="{photo}" alt="Фото" style="width:100px; height:100px; object-fit:cover;" />
         </div>"""
 
         table += f"  <tr>\n"
@@ -50,7 +51,6 @@ def generate_table(items):
 
     table += "</table>\n\n"
     return table
-
 with open(README_FILE, "r", encoding="utf-8") as f:
     readme_content = f.read()
 
