@@ -18,7 +18,7 @@ def load_json(filename):
 
 def generate_table(items):
     if not items:
-        return "_Данных пока нет_\n\n"
+        return "Данных пока нет_\n\n"
 
     default_photo = "assets/default_avatar.png"
 
@@ -44,14 +44,13 @@ def generate_table(items):
         url_src = item.get("url", "#")
 
         if url_src.startswith("@"):
-           full_url = f"https://t.me/{url_src[1:]}"
+            full_url = f"https://t.me/{url_src[1:]}"
         else:
-        full_url = url_src
+            full_url = url_src
 
         desc = item.get("desc", "").replace("\n", " ")
         photo = item.get("photo", "").strip() or default_photo
 
-        # Фиксируем отступы и перемещаем внутрь цикла
         photo_html = f"""
         <div style="
             width: 100%; 
@@ -77,7 +76,7 @@ def generate_table(items):
 
         table += f"  <tr>\n"
         table += f"    <td style='text-align:center; vertical-align:middle;'>{photo_html}</td>\n"
-        table += f"    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='{url}'>{name}</a></td>\n"
+        table += f"    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='{full_url}'>{name}</a></td>\n"
         table += f"    <td style='word-wrap: break-word;'>{desc}</td>\n"
         table += f"  </tr>\n"
 
