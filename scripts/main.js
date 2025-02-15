@@ -1,8 +1,12 @@
 document.addEventListener('DOMContentLoaded', () => {
-    loadData("chats_ru");
-    loadData("chats_en");
-    loadData("channels_ru");
-    loadData("channels_en");
+    Promise.all([
+        loadData("chats_ru"),
+        loadData("chats_en"),
+        loadData("channels_ru"),
+        loadData("channels_en")
+    ]).catch(error => {
+        console.error('Ошибка при загрузке данных:', error);
+    });
 });
 
 async function loadData(str) {
@@ -10,6 +14,12 @@ async function loadData(str) {
         const response = await fetch(`data/${str}.json`);
         const channels = await response.json();
         const container = document.getElementById(`${str}-container`);
+        
+        if (!container) {
+            console.error(`Контейнер с id "${str}-container" не найден.`);
+            return;
+        }
+
         container.innerHTML = '';
 
         channels.forEach(channel => {
@@ -18,7 +28,7 @@ async function loadData(str) {
         });
 
     } catch (error) {
-        handleLoadingError(error);
+        handleLoadingError(error, container);
     }
 }
 
@@ -30,6 +40,7 @@ function createCard(data) {
     card.rel = "noopener noreferrer";
 
     const avatarHTML = createAvatarTemplate(data);
+    const delay = Math.floor(Math.random() * 300);
     card.innerHTML = `
         <div class="card-content">
             <div class="channel-header">
@@ -57,6 +68,7 @@ function createAvatarTemplate(data) {
                  class="channel-avatar" 
                  alt="${data.name}"
                  loading="lazy"
+                 decoding="async"
                  onerror="this.src='${defaultAvatar}'; this.onerror=null;">
         `;
     }
@@ -65,7 +77,8 @@ function createAvatarTemplate(data) {
         <img src="${defaultAvatar}" 
              class="channel-avatar" 
              alt="${data.name}"
-             loading="lazy">
+             loading="lazy"
+             decoding="async">
     `;
 }
 
