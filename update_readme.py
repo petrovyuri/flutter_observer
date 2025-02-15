@@ -20,24 +20,36 @@ def generate_table(items):
     if not items:
         return "_Данных пока нет_\n\n"
 
+    default_photo = "assets/default_avatar.png" 
+
     table = "<table>\n"
     table += "  <tr>\n"
-    table += '    <th>Фото</th>\n'
-    table += '    <th>Название</th>\n'
-    table += '    <th>Описание</th>\n'
+    table += '    <th style="width: 10%;">Фото</th>\n'
+    table += '    <th style="width: 50%;">Название</th>\n'
+    table += '    <th style="width: 40%;">Описание</th>\n'
     table += "  </tr>\n"
 
     for item in items:
         if not isinstance(item, dict):
             continue 
+        
         name = item.get("name", "Без названия")
         url = item.get("url", "#")
         desc = item.get("desc", "").replace("\n", " ")
-        table += f"  <tr>\n    <td><a href='{url}'>{name}</a></td>\n    <td>{desc}</td>\n  </tr>\n"
+        photo = item.get("photo", "").strip() or default_photo
+        photo_html = f"""
+        <div style="width:50px; height:50px; overflow:hidden; display:flex; justify-content:center; align-items:center; border-radius:8px;">
+            <img src="{photo}" alt="Фото" style="width:100%; height:100%; object-fit:cover;" />
+        </div>"""
+
+        table += f"  <tr>\n"
+        table += f"    <td>{photo_html}</td>\n"
+        table += f"    <td><a href='{url}'>{name}</a></td>\n"
+        table += f"    <td>{desc}</td>\n"
+        table += f"  </tr>\n"
 
     table += "</table>\n\n"
     return table
-
 
 with open(README_FILE, "r", encoding="utf-8") as f:
     readme_content = f.read()
