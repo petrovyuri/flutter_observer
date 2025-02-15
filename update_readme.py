@@ -45,11 +45,29 @@ def generate_table(items):
         desc = item.get("desc", "").replace("\n", " ")
         photo = item.get("photo", "").strip() or default_photo
 
-        photo_html = f"""
-        <div style="width:100px; height:100px; display:flex; justify-content:center; align-items:center; overflow:hidden; border-radius:8px;">
-            <img src="{photo}" alt="Фото" style="width:100px; height:100px; object-fit:cover;"/>
-        </div>"""
-
+photo_html = f"""
+<div style="
+    width: 100px; 
+    height: 100px; 
+    min-width: 100px;
+    min-height: 100px;
+    flex-shrink: 0;  # Запрет уменьшения
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    overflow: hidden; 
+    border-radius: 8px;
+    background: #f0f0f0;
+    border: 1px solid #ddd;">
+    <img src="{photo}" 
+         alt="Фото" 
+         style="
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover;
+            display: block;
+            pointer-events: none;">  # Исключение кликов по картинке
+</div>"""
         table += f"  <tr>\n"
         table += f"    <td style='text-align:center; vertical-align:middle;'>{photo_html}</td>\n"
         table += f"    <td><a href='{url}'>{name}</a></td>\n"
