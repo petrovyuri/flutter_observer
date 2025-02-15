@@ -45,7 +45,7 @@ def generate_table(items):
         desc = item.get("desc", "").replace("\n", " ")
         photo = item.get("photo", "").strip() or default_photo
 
-photo_html = f"""
+        photo_html = f"""
 <div style="
     width: 100px; 
     height: 100px; 
@@ -66,8 +66,8 @@ photo_html = f"""
             height: 100%; 
             object-fit: cover;
             display: block;
-            pointer-events: none;">  # Исключение кликов по картинке
-</div>"""
+            pointer-events: none;">
+        </div>"""
         table += f"  <tr>\n"
         table += f"    <td style='text-align:center; vertical-align:middle;'>{photo_html}</td>\n"
         table += f"    <td><a href='{url}'>{name}</a></td>\n"
