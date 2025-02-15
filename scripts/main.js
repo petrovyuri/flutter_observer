@@ -8,8 +8,6 @@ document.addEventListener('DOMContentLoaded', () => {
 async function loadData(str) {
     try {
         const response = await fetch(`data/${str}.json`);
-        if (!response.ok) throw new Error(`Ошибка HTTP: ${response.status}`);
-
         const channels = await response.json();
         const container = document.getElementById(`${str}-container`);
         container.innerHTML = '';
@@ -32,8 +30,6 @@ function createCard(data) {
     card.rel = "noopener noreferrer";
 
     const avatarHTML = createAvatarTemplate(data);
-    const delay = Math.floor(Math.random() * 300);
-
     card.innerHTML = `
         <div class="card-content">
             <div class="channel-header">
