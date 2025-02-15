@@ -24,6 +24,12 @@
     "photo":"assets/photo/IoE7jOWCqB7SBHkhhCrpEpooNdlbGPxFHYX6hHhJnYnfgbZNrUO2b68u9Vl-keUn1M8roWxn-MWPRjSalUuutOqc4f6A11iSEErgbFZFby6ajG_cHErNuUbLHOKvbh8BfhMH1y1OmXs9sC2YCcQFbJNjPcER6QRL2Jh4YrUEbXq8t7-M3UFwXdY5YCt-Mzdt05Ym4NIxSyRs6u8zMTlEIlaCKiWzcjzHgBMk124MF1fRq3CJ9nzh6TR2H.jpg"
   },
   {
+    "name": "Дневник Flutter-разработчика",
+    "url": "@DiaryFlutterDev",
+    "desc": "Описание пути мобильного разработчика с нуля до junior, middle, senior",
+    "photo":"assets/photo/CGCcIW0bkwzi3WpYTw_W8jxEMthTWn52i8Xv5VZP1a7x6m1M-lu7VchoGL3vSKdcieTZlPRBj-VZFuiC1nGdiKJzNaUiqNsP5wNmg6vr3TLFGZNATVlpR7LU1XmnM2Za_xEclUPkdSJlhC2O-5KpUMnH5nomeE4xM8V56PM1Ib-Glo8bhbr9UpHWAwNBI0XtD4APWwcE18yghDlYAG-PQTx_6G0er97zuKFQGfgZ5j3KQ9--26EBY1axS.jpg"
+  },
+  {
     "name": "Flutter Friendly",
     "url": "@flutterfriendly",
     "desc": "Канал Friflex о разработке на Flutter. Обновления, плагины, полезные материалы — превращаем знания в реальный опыт, доступный каждому разработчику",
@@ -64,12 +70,6 @@
     "url": "@ftl_notes",
     "desc": "Канал Павла Гершевича",
     "photo":"assets/photo/WFxy5Yj-qPz1sGZwhFvP1YemtCVfrhmueGuXd4Di_ylRKWDqCdKi20Hw7-rO1y5T9LkQCAE-D1WpmCZg2e40CYutxZMkOFna4vrpP4dPx1aBJZ9EVF9F1iLT4VCMFnilk2tAV68puv6KuulNUPY5guGWNC8EJwtvlEgTrEuF6PWbK5fdbQdOgbgb5vpUho03vezKkOeoO4to4KK9ESxr05Zhy6PJV-oPWCoEuiQMhsbxw8IMJYW9WnZSG.jpg"
-  },
-  {
-    "name": "Дневник Flutter-разработчика",
-    "url": "@DiaryFlutterDev",
-    "desc": "Описание пути мобильного разработчика с нуля до junior, middle, senior",
-    "photo":"assets/photo/CGCcIW0bkwzi3WpYTw_W8jxEMthTWn52i8Xv5VZP1a7x6m1M-lu7VchoGL3vSKdcieTZlPRBj-VZFuiC1nGdiKJzNaUiqNsP5wNmg6vr3TLFGZNATVlpR7LU1XmnM2Za_xEclUPkdSJlhC2O-5KpUMnH5nomeE4xM8V56PM1Ib-Glo8bhbr9UpHWAwNBI0XtD4APWwcE18yghDlYAG-PQTx_6G0er97zuKFQGfgZ5j3KQ9--26EBY1axS.jpg"
   },
   {
     "name": "Flutter For Dev - новости, статьи, дизайн",
