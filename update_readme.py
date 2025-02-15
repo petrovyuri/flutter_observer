@@ -47,7 +47,7 @@ def generate_table(items):
 
         photo_html = f"""
         <div style="width:100px; height:100px; display:flex; justify-content:center; align-items:center; overflow:hidden; border-radius:8px;">
-            <img src="{photo}" alt="Фото" style="width:100px; height:100px; object-fit:cover;"/>
+            <img src="{photo}" alt="Фото" style="width:100%; height:100%; object-fit:cover;"/>
         </div>"""
 
         table += f"  <tr>\n"
