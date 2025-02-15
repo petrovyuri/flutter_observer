@@ -22,17 +22,28 @@ def generate_table(items):
 
     table = "<table>\n"
     table += "  <tr>\n"
-    table += '    <th style="width: 60%;">Название</th>\n'
+    table += '    <th style="width: 10%;">Фото</th>\n'
+    table += '    <th style="width: 50%;">Название</th>\n'
     table += '    <th style="width: 40%;">Описание</th>\n'
     table += "  </tr>\n"
 
     for item in items:
         if not isinstance(item, dict):
             continue 
+        
         name = item.get("name", "Без названия")
         url = item.get("url", "#")
         desc = item.get("desc", "").replace("\n", " ")
-        table += f"  <tr>\n    <td><a href='{url}'>{name}</a></td>\n    <td>{desc}</td>\n  </tr>\n"
+        photo = item.get("photo", "")
+
+        # Если есть фото, добавляем его в таблицу
+        photo_html = f"<img src='{photo}' alt='Фото' style='width:50px; height:50px; border-radius:8px;' />" if photo else ""
+
+        table += f"  <tr>\n"
+        table += f"    <td>{photo_html}</td>\n"
+        table += f"    <td><a href='{url}'>{name}</a></td>\n"
+        table += f"    <td>{desc}</td>\n"
+        table += f"  </tr>\n"
 
     table += "</table>\n\n"
     return table
