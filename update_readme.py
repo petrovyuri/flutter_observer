@@ -23,11 +23,11 @@ def generate_table(items):
     default_photo = "assets/default_avatar.png"
 
     table = """<table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
-    <colgroup>
-        <col style="width: 100px;">
-        <col style="width: 50%;">
-        <col style="width: 40%;">
-    </colgroup>
+<colgroup>
+    <col style="width: 90px;">
+    <col style="width: 200px;">
+    <col style="width: 400px;">
+</colgroup>
     """
 
     table += "  <tr>\n"
