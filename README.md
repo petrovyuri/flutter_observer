@@ -1,9 +1,9 @@
 # 📚 Flutter Observer
-### Лучшие каналы и чаты для разработчиков Flutter
+## Лучшие каналы и чаты для разработчиков Flutter
 
 [![Посетить сайт](https://img.shields.io/badge/-Отслеживать%20изменения%20в%20боте-%23007BFF?style=for-the-badge&logo=telegram&logoColor=white)](https://ваш-сайт.com)
 
-## 📢 Телеграм-каналы (Русский)
+### 📢 Телеграм-каналы (Русский)
 <!-- START CHANNELS RU -->
 <table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
 <colgroup>
@@ -514,7 +514,7 @@
 
 <!-- END CHANNELS RU -->
 
-## 📢 Telegram Channels (English)
+### 📢 Telegram Channels (English)
 <!-- START CHANNELS EN -->
 <table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
 <colgroup>
@@ -662,7 +662,7 @@ Tips Of The Day</a></td>
 
 <!-- END CHANNELS EN -->
 
-## 💬 Телеграм-чаты (Русский)
+### 💬 Телеграм-чаты (Русский)
 <!-- START CHATS RU -->
 <table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
 <colgroup>
@@ -809,7 +809,7 @@ Tips Of The Day</a></td>
 
 <!-- END CHATS RU -->
 
-## 💬 Telegram Chats (English)
+### 💬 Telegram Chats (English)
 <!-- START CHATS EN -->
 <table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
 <colgroup>
@@ -904,7 +904,7 @@ Tips Of The Day</a></td>
 
 <!-- END CHATS EN -->
 
-## 📢 Добавьте свой Телеграм-канал или чат!
+### 📢 Добавьте свой Телеграм-канал или чат!
 
 Хотите, чтобы ваш канал или чат появился в списке?  
 Просто измените соответствующий JSON-файл и создайте **Pull Request**.
