@@ -32,8 +32,8 @@ def generate_table(items):
 
     table += "  <tr>\n"
     table += '    <th>Фото</th>\n'
-    table += '    <th>Название</th>\n'
-    table += '    <th>Описание</th>\n'
+    table += f"    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'>{name}</td>\n"
+    table += f"    <td style='word-wrap: break-word;'>{desc}</td>\n"
     table += "  </tr>\n"
 
     for item in items:
@@ -45,13 +45,12 @@ def generate_table(items):
         desc = item.get("desc", "").replace("\n", " ")
         photo = item.get("photo", "").strip() or default_photo
 
-        photo_html = f"""
+photo_html = f"""
 <div style="
     width: 100px; 
     height: 100px; 
     min-width: 100px;
     min-height: 100px;
-    flex-shrink: 0;  # Запрет уменьшения
     display: flex; 
     justify-content: center; 
     align-items: center; 
@@ -62,12 +61,14 @@ def generate_table(items):
     <img src="{photo}" 
          alt="Фото" 
          style="
-            width: 100%; 
-            height: 100%; 
+            width: 100px; 
+            height: 100px; 
+            max-width: 100px;
+            max-height: 100px;
             object-fit: cover;
-            display: block;
-            pointer-events: none;">
-        </div>"""
+            display: block;">
+</div>
+"""
         table += f"  <tr>\n"
         table += f"    <td style='text-align:center; vertical-align:middle;'>{photo_html}</td>\n"
         table += f"    <td><a href='{url}'>{name}</a></td>\n"
