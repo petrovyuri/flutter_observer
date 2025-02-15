@@ -20,16 +20,7 @@ def generate_table(items):
     if not items:
         return "_Данных пока нет_\n\n"
 
-    default_photo = "assets/default_avatar.png"
-
-    table = """<table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
-<colgroup>
-    <col style="width: 100px; min-width: 100px; max-width: 100px;">
-    <col style="width: 250px; min-width: 250px; max-width: 250px;">
-    <col style="width: 400px; min-width: 400px; max-width: 400px;">
-</colgroup>
-    """
-
+    table = "<table>\n"
     table += "  <tr>\n"
     table += '    <th>Фото</th>\n'
     table += '    <th>Название</th>\n'
@@ -39,43 +30,10 @@ def generate_table(items):
     for item in items:
         if not isinstance(item, dict):
             continue 
-        
         name = item.get("name", "Без названия")
         url = item.get("url", "#")
         desc = item.get("desc", "").replace("\n", " ")
-        photo = item.get("photo", "").strip() or default_photo
-
-        # Фиксируем отступы и перемещаем внутрь цикла
-        photo_html = f"""
-        <div style="
-            width: 100px; 
-            height: 100px; 
-            min-width: 100px;
-            min-height: 100px;
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            overflow: hidden; 
-            border-radius: 8px;
-            background: #f0f0f0;
-            border: 1px solid #ddd;">
-            <img src="{photo}" 
-                alt="Фото" 
-                style="
-                    width: 100px; 
-                    height: 100px; 
-                    max-width: 100px;
-                    max-height: 100px;
-                    object-fit: cover;
-                    display: block;">
-        </div>
-        """
-
-        table += f"  <tr>\n"
-        table += f"    <td style='text-align:center; vertical-align:middle;'>{photo_html}</td>\n"
-        table += f"    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='{url}'>{name}</a></td>\n"
-        table += f"    <td style='word-wrap: break-word;'>{desc}</td>\n"
-        table += f"  </tr>\n"
+        table += f"  <tr>\n    <td><a href='{url}'>{name}</a></td>\n    <td>{desc}</td>\n  </tr>\n"
 
     table += "</table>\n\n"
     return table
