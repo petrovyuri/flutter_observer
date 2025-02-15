@@ -3,10 +3,10 @@ import re
 
 README_FILE = "README.md"
 JSON_FILES = {
-    "CHANNELS RU": "channels_ru.json",
-    "CHANNELS EN": "channels_en.json",
-    "CHATS RU": "chats_ru.json",
-    "CHATS EN": "chats_en.json",
+    "CHANNELS RU": "data/channels_ru.json",
+    "CHANNELS EN": "data/channels_en.json",
+    "CHATS RU": "data/chats_ru.json",
+    "CHATS EN": "data/chats_en.json",
 }
 
 def load_json(filename):
