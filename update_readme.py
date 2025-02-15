@@ -22,11 +22,18 @@ def generate_table(items):
 
     default_photo = "assets/default_avatar.png"
 
-    table = "<table>\n"
+    table = """<table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
+    <colgroup>
+        <col style="width: 100px;">
+        <col style="width: 50%;">
+        <col style="width: 40%;">
+    </colgroup>
+    """
+
     table += "  <tr>\n"
-    table += '    <th style="width: 10%;">Фото</th>\n'
-    table += '    <th style="width: 50%;">Название</th>\n'
-    table += '    <th style="width: 40%;">Описание</th>\n'
+    table += '    <th>Фото</th>\n'
+    table += '    <th>Название</th>\n'
+    table += '    <th>Описание</th>\n'
     table += "  </tr>\n"
 
     for item in items:
@@ -39,12 +46,12 @@ def generate_table(items):
         photo = item.get("photo", "").strip() or default_photo
 
         photo_html = f"""
-        <div style="width:100px; height:100px; overflow:hidden; display:flex; justify-content:center; align-items:center; border-radius:8px;">
-            <img src="{photo}" alt="Фото" style="width:100px; height:100px; object-fit:cover;" />
+        <div style="width:100px; height:100px; display:flex; justify-content:center; align-items:center; overflow:hidden; border-radius:8px;">
+            <img src="{photo}" alt="Фото" style="width:100px; height:100px; object-fit:cover;"/>
         </div>"""
 
         table += f"  <tr>\n"
-        table += f"    <td>{photo_html}</td>\n"
+        table += f"    <td style='text-align:center; vertical-align:middle;'>{photo_html}</td>\n"
         table += f"    <td><a href='{url}'>{name}</a></td>\n"
         table += f"    <td>{desc}</td>\n"
         table += f"  </tr>\n"
