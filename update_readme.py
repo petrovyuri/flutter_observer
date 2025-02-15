@@ -24,9 +24,9 @@ def generate_table(items):
 
     table = """<table style="table-layout: fixed; width: 100%; border-collapse: collapse;">
 <colgroup>
-    <col style="width: 90px;">
-    <col style="width: 250px;">
-    <col style="width: 400px;">
+    <col style="width: 100px; min-width: 100px; max-width: 100px;">
+    <col style="width: 250px; min-width: 250px; max-width: 250px;">
+    <col style="width: 400px; min-width: 400px; max-width: 400px;">
 </colgroup>
     """
 
