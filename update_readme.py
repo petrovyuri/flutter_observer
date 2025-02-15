@@ -32,8 +32,8 @@ def generate_table(items):
 
     table += "  <tr>\n"
     table += '    <th>Фото</th>\n'
-    table += f"    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'>{name}</td>\n"
-    table += f"    <td style='word-wrap: break-word;'>{desc}</td>\n"
+    table += '    <th>Название</th>\n'
+    table += '    <th>Описание</th>\n'
     table += "  </tr>\n"
 
     for item in items:
@@ -45,6 +45,7 @@ def generate_table(items):
         desc = item.get("desc", "").replace("\n", " ")
         photo = item.get("photo", "").strip() or default_photo
 
+        # Фиксируем отступы и перемещаем внутрь цикла
         photo_html = f"""
         <div style="
             width: 100px; 
