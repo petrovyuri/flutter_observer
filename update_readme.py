@@ -41,7 +41,13 @@ def generate_table(items):
             continue 
         
         name = item.get("name", "Без названия")
-        url = item.get("url", "#")
+        url_src = item.get("url", "#")
+
+        if url_src.startswith("@"):
+           full_url = f"https://t.me/{url_src[1:]}"
+        else:
+        full_url = url_src
+
         desc = item.get("desc", "").replace("\n", " ")
         photo = item.get("photo", "").strip() or default_photo
 
