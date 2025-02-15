@@ -82,6 +82,32 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
+            <img src="assets/photo/IoE7jOWCqB7SBHkhhCrpEpooNdlbGPxFHYX6hHhJnYnfgbZNrUO2b68u9Vl-keUn1M8roWxn-MWPRjSalUuutOqc4f6A11iSEErgbFZFby6ajG_cHErNuUbLHOKvbh8BfhMH1y1OmXs9sC2YCcQFbJNjPcER6QRL2Jh4YrUEbXq8t7-M3UFwXdY5YCt-Mzdt05Ym4NIxSyRs6u8zMTlEIlaCKiWzcjzHgBMk124MF1fRq3CJ9nzh6TR2H.jpg" 
+                alt="Фото" 
+                style="
+                    width: 100%; 
+                    height: 100%; 
+                    max-width: 100px;
+                    max-height: 100px;
+                    object-fit: cover;
+                    display: block;">
+        </div>
+        </td>
+    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/frezycode'>Стас Ильин | Flutter</a></td>
+    <td style='word-wrap: break-word;'>Lead Flutter developer 👶23 y.o. 6+ y.exp Тот самый школьник лид из мемов Программист, блогер, стартапер</td>
+  </tr>
+  <tr>
+    <td style='text-align:center; vertical-align:middle;'>
+        <div style="
+            width: 100%; 
+            height: 100%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            overflow: hidden; 
+            border-radius: 8px;
+            background: #f0f0f0;
+            border: 1px solid #ddd;">
             <img src="assets/photo/JE5NajqSRCadwUKVr7UU4dwCLbXznueyRLiN4Ga226L3xqh7D1BqiOzDLU61DACMUpuI2RED4yvOAJnYzPEoZKyc1jgy-23cgAr9bupjoKz5rhBxOKyNMFgDJGjQhop3wHtMYLtv3Moq8bmQ4RqsQvb4pO6aexJOTNQXsiIcLv_JKLcHzy_Vr_f0doSECFchoFs21pK4mY0Fa7CXMvpOx2Hw-UTheI1Yd5A8Ya0iCIi_UI6mAzpEy22ho.jpg" 
                 alt="Фото" 
                 style="
@@ -108,7 +134,7 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
-            <img src="assets/photo/IoE7jOWCqB7SBHkhhCrpEpooNdlbGPxFHYX6hHhJnYnfgbZNrUO2b68u9Vl-keUn1M8roWxn-MWPRjSalUuutOqc4f6A11iSEErgbFZFby6ajG_cHErNuUbLHOKvbh8BfhMH1y1OmXs9sC2YCcQFbJNjPcER6QRL2Jh4YrUEbXq8t7-M3UFwXdY5YCt-Mzdt05Ym4NIxSyRs6u8zMTlEIlaCKiWzcjzHgBMk124MF1fRq3CJ9nzh6TR2H.jpg" 
+            <img src="assets/photo/CGCcIW0bkwzi3WpYTw_W8jxEMthTWn52i8Xv5VZP1a7x6m1M-lu7VchoGL3vSKdcieTZlPRBj-VZFuiC1nGdiKJzNaUiqNsP5wNmg6vr3TLFGZNATVlpR7LU1XmnM2Za_xEclUPkdSJlhC2O-5KpUMnH5nomeE4xM8V56PM1Ib-Glo8bhbr9UpHWAwNBI0XtD4APWwcE18yghDlYAG-PQTx_6G0er97zuKFQGfgZ5j3KQ9--26EBY1axS.jpg" 
                 alt="Фото" 
                 style="
                     width: 100%; 
@@ -119,8 +145,8 @@
                     display: block;">
         </div>
         </td>
-    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/frezycode'>Стас Ильин | Flutter</a></td>
-    <td style='word-wrap: break-word;'>Lead Flutter developer 👶23 y.o. 6+ y.exp Тот самый школьник лид из мемов Программист, блогер, стартапер</td>
+    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/DiaryFlutterDev'>Дневник Flutter-разработчика</a></td>
+    <td style='word-wrap: break-word;'>Описание пути мобильного разработчика с нуля до junior, middle, senior</td>
   </tr>
   <tr>
     <td style='text-align:center; vertical-align:middle;'>
@@ -160,7 +186,7 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
-            <img src="assets/photo/rsV2vvB_T4tyfKcs3h_cBWnHxGv9zqZJj3dsu8NJxRNA8FmEoSaJxgXb3VvStm-G5LE4nGCThzjaZ1Xy3A351O-6gJ3a7NHtWysUgGGo9bO15Yw40ln_H5cCVHqhRPsteE33XBYreN19MDmHYsB5Z9Fum0Kv20zSXGYUXX73IxpkYr5egZcQWNu_dQfV92iaTKEiXJkn5Y18s3bV5SHKxx0jVhoaZvV9Kc_cqbvx9lCOKYu-cadJ0NxpS.jpg" 
+            <img src="assets/photo/HMI5yjIHHDVfjTZRhW1fqIgNXvDrfusKIKqukH8y6ikx-mkUM9cBHMiAykka33LyBBY20swyWLui-5oYv-Zej26bzPaeYGQIPXQlT05eGuMgGgGJI2EWKEtdh8PGDw3S9qHtF2xGM4njvodRw1e1y66dM2bCHILQ6YGGa0g4uUdHfvpIWHyqLJJ5SzpL9RH2YxAvTfjdkwgdK7wTMtZ9qpnaTzfURJ6A7f44-ICNw6JUw20XXXyQ-whRP.jpg" 
                 alt="Фото" 
                 style="
                     width: 100%; 
@@ -171,8 +197,8 @@
                     display: block;">
         </div>
         </td>
-    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/dartside'>DART 🎯 SIDE</a></td>
-    <td style='word-wrap: break-word;'>Сообщество любителей Dart и Flutter</td>
+    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/ohmyflutter'>Oh, my Flutter</a></td>
+    <td style='word-wrap: break-word;'>Всё о Flutter-разработке. Новости, статьи, анонсы, вакансии и многое другое</td>
   </tr>
   <tr>
     <td style='text-align:center; vertical-align:middle;'>
@@ -186,7 +212,7 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
-            <img src="assets/photo/QKGbD0asOauqhjrSPMB-tCoOUIjJHekDkoIKpjXG6iFuBcJpzxioyc8AjKsABFQym_5aauGWGsHvO6psfKWznoGTZCmdimKsDWAXtjRoYGVivTlbeaTst6h6nQMJ_gFZyfRS0DCV8cq1pOKo1Vc1I9fL-iG-sZUIt8_cAbOOHPNdZPH2HgVi8FSMI547yabiF3i_w9-NFGYl6ddU-NJ6gLG4_kXHIRpd9JfN3_Jx-agh0LI_rGCLki8Oi.jpg" 
+            <img src="assets/photo/rsV2vvB_T4tyfKcs3h_cBWnHxGv9zqZJj3dsu8NJxRNA8FmEoSaJxgXb3VvStm-G5LE4nGCThzjaZ1Xy3A351O-6gJ3a7NHtWysUgGGo9bO15Yw40ln_H5cCVHqhRPsteE33XBYreN19MDmHYsB5Z9Fum0Kv20zSXGYUXX73IxpkYr5egZcQWNu_dQfV92iaTKEiXJkn5Y18s3bV5SHKxx0jVhoaZvV9Kc_cqbvx9lCOKYu-cadJ0NxpS.jpg" 
                 alt="Фото" 
                 style="
                     width: 100%; 
@@ -197,8 +223,8 @@
                     display: block;">
         </div>
         </td>
-    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/dartlang_jobs'>Dart Jobs</a></td>
-    <td style='word-wrap: break-word;'>Канал для поиска работы</td>
+    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/dartside'>DART 🎯 SIDE</a></td>
+    <td style='word-wrap: break-word;'>Сообщество любителей Dart и Flutter</td>
   </tr>
   <tr>
     <td style='text-align:center; vertical-align:middle;'>
@@ -264,6 +290,32 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
+            <img src="assets/photo/qIUmBsA8MalnF9sqH5oAcGDjJ9qAhKJJRa_vdZxC7zS_N_RpB_sckTLUwKx-h5MX_tmWPBTNshglUOfhRssdjKNQcrIGszxFCInK0SY9HCSaoLy6h05ZsdDI34xcPPtjk0CP5FIf1idH-2a-idgmJY6Lf982_y_SgDNkhp8Gulx-kTzj6CT4zfJUecmm2Wovdgdg-QPChgIq7KzDRJgCkOMrkxBlCs6RCdAz5JoRtW3Oxx8xL9LaguI2O.jpg" 
+                alt="Фото" 
+                style="
+                    width: 100%; 
+                    height: 100%; 
+                    max-width: 100px;
+                    max-height: 100px;
+                    object-fit: cover;
+                    display: block;">
+        </div>
+        </td>
+    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/FlutterForDev'>Flutter For Dev - новости, статьи, дизайн</a></td>
+    <td style='word-wrap: break-word;'>Это телеграмм канал, посвященный актуальным анонсам, статьям, новостям, дизайну и многому другому из мира Flutter</td>
+  </tr>
+  <tr>
+    <td style='text-align:center; vertical-align:middle;'>
+        <div style="
+            width: 100%; 
+            height: 100%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            overflow: hidden; 
+            border-radius: 8px;
+            background: #f0f0f0;
+            border: 1px solid #ddd;">
             <img src="assets/photo/dKHfvm2douIAnr19Wrb-XrivdZgrv_Ids6HFyYB2yE-ZLC0zLFO9Yp_m5WEeiIlGVxFnipMrsTIo-2u5M3WVMbQtVjfmvbJCRP9YDr8LLhQutSCnomlc8pwweBHZE2eaZ14Mj_BeK46iogSX59GYR1xysu1DFG86pLRyGn3_ZKRsIZqZaVw2oPMZWUDDS2BfabW-aKVpLKJ8_rfH3JlSZWNHufuOuilYeLp7MWVmeljfubsVa39MHL84B.jpg" 
                 alt="Фото" 
                 style="
@@ -303,84 +355,6 @@
         </td>
     <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/ftl_notes'>Flutter Tech-Lead Notes</a></td>
     <td style='word-wrap: break-word;'>Канал Павла Гершевича</td>
-  </tr>
-  <tr>
-    <td style='text-align:center; vertical-align:middle;'>
-        <div style="
-            width: 100%; 
-            height: 100%; 
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            overflow: hidden; 
-            border-radius: 8px;
-            background: #f0f0f0;
-            border: 1px solid #ddd;">
-            <img src="assets/photo/CGCcIW0bkwzi3WpYTw_W8jxEMthTWn52i8Xv5VZP1a7x6m1M-lu7VchoGL3vSKdcieTZlPRBj-VZFuiC1nGdiKJzNaUiqNsP5wNmg6vr3TLFGZNATVlpR7LU1XmnM2Za_xEclUPkdSJlhC2O-5KpUMnH5nomeE4xM8V56PM1Ib-Glo8bhbr9UpHWAwNBI0XtD4APWwcE18yghDlYAG-PQTx_6G0er97zuKFQGfgZ5j3KQ9--26EBY1axS.jpg" 
-                alt="Фото" 
-                style="
-                    width: 100%; 
-                    height: 100%; 
-                    max-width: 100px;
-                    max-height: 100px;
-                    object-fit: cover;
-                    display: block;">
-        </div>
-        </td>
-    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/DiaryFlutterDev'>Дневник Flutter-разработчика</a></td>
-    <td style='word-wrap: break-word;'>Описание пути мобильного разработчика с нуля до junior, middle, senior</td>
-  </tr>
-  <tr>
-    <td style='text-align:center; vertical-align:middle;'>
-        <div style="
-            width: 100%; 
-            height: 100%; 
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            overflow: hidden; 
-            border-radius: 8px;
-            background: #f0f0f0;
-            border: 1px solid #ddd;">
-            <img src="assets/photo/qIUmBsA8MalnF9sqH5oAcGDjJ9qAhKJJRa_vdZxC7zS_N_RpB_sckTLUwKx-h5MX_tmWPBTNshglUOfhRssdjKNQcrIGszxFCInK0SY9HCSaoLy6h05ZsdDI34xcPPtjk0CP5FIf1idH-2a-idgmJY6Lf982_y_SgDNkhp8Gulx-kTzj6CT4zfJUecmm2Wovdgdg-QPChgIq7KzDRJgCkOMrkxBlCs6RCdAz5JoRtW3Oxx8xL9LaguI2O.jpg" 
-                alt="Фото" 
-                style="
-                    width: 100%; 
-                    height: 100%; 
-                    max-width: 100px;
-                    max-height: 100px;
-                    object-fit: cover;
-                    display: block;">
-        </div>
-        </td>
-    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/FlutterForDev'>Flutter For Dev - новости, статьи, дизайн</a></td>
-    <td style='word-wrap: break-word;'>Это телеграмм канал, посвященный актуальным анонсам, статьям, новостям, дизайну и многому другому из мира Flutter</td>
-  </tr>
-  <tr>
-    <td style='text-align:center; vertical-align:middle;'>
-        <div style="
-            width: 100%; 
-            height: 100%; 
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            overflow: hidden; 
-            border-radius: 8px;
-            background: #f0f0f0;
-            border: 1px solid #ddd;">
-            <img src="assets/photo/LdDtRKchg-7mTewJAhO8aVkizxOZiJNHvvUhbpGCDM_fros7mmiPXqAQN-JeDC9guooAdTdJN2sb2yIyJU6ws8Ju0okRUPUqNTHmdvISMrPGlh1RFtHlUFKF8Nc_SigTTEGiFstJaDVFRJS-owciqjTjKGMkWTJEH5inlrwOsSxMwOsudIKXgIJzRDiRmDk0zZ0PPzTDKRokXjOsbO1fCzTL4W0OXjYGp1PH1vujDqCDV6bQyMFEkAqHA.jpg" 
-                alt="Фото" 
-                style="
-                    width: 100%; 
-                    height: 100%; 
-                    max-width: 100px;
-                    max-height: 100px;
-                    object-fit: cover;
-                    display: block;">
-        </div>
-        </td>
-    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/adrianov_about'>Адрианов про разработку</a></td>
-    <td style='word-wrap: break-word;'>Канал Flutter TeamLead с большим опытом</td>
   </tr>
   <tr>
     <td style='text-align:center; vertical-align:middle;'>
@@ -446,32 +420,6 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
-            <img src="assets/photo/HMI5yjIHHDVfjTZRhW1fqIgNXvDrfusKIKqukH8y6ikx-mkUM9cBHMiAykka33LyBBY20swyWLui-5oYv-Zej26bzPaeYGQIPXQlT05eGuMgGgGJI2EWKEtdh8PGDw3S9qHtF2xGM4njvodRw1e1y66dM2bCHILQ6YGGa0g4uUdHfvpIWHyqLJJ5SzpL9RH2YxAvTfjdkwgdK7wTMtZ9qpnaTzfURJ6A7f44-ICNw6JUw20XXXyQ-whRP.jpg" 
-                alt="Фото" 
-                style="
-                    width: 100%; 
-                    height: 100%; 
-                    max-width: 100px;
-                    max-height: 100px;
-                    object-fit: cover;
-                    display: block;">
-        </div>
-        </td>
-    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/ohmyflutter'>Oh, my Flutter</a></td>
-    <td style='word-wrap: break-word;'>Всё о Flutter-разработке. Новости, статьи, анонсы, вакансии и многое другое</td>
-  </tr>
-  <tr>
-    <td style='text-align:center; vertical-align:middle;'>
-        <div style="
-            width: 100%; 
-            height: 100%; 
-            display: flex; 
-            justify-content: center; 
-            align-items: center; 
-            overflow: hidden; 
-            border-radius: 8px;
-            background: #f0f0f0;
-            border: 1px solid #ddd;">
             <img src="assets/photo/gBUDcdfdNljoeUfqLWzwazKrl4rLUJOGOUlVsWjKh-6v3kN9peIhFoZcWNgyQLl7Q0qnRB6gT0NY2pK9UtNl4G6MjzN1mwQ-FyYtVw5UxuBVFO96-2IyTMkHCRY_5mLc2XfAtmZNo1rYb5rFE-zqjskMu7WKd1UyWB_AGdpmY7bkAPIsNnt28L7CtUKdeJ9x_sCTqIrUH2aZqiaiJKHqm4yQnebkN4PF6BT2QOQ39Y_hz-ksa-zGd98kb.jpg" 
                 alt="Фото" 
                 style="
@@ -511,6 +459,58 @@
         </td>
     <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/flutter_homework'>Flutter Homework</a></td>
     <td style='word-wrap: break-word;'>Общение выпускников курса по Flutter в OTUS. Рады видеть всех, кто интересуется разработкой! Обсуждаем различные темы и домашние задания, делимся опытом и помогаем найти работу.</td>
+  </tr>
+  <tr>
+    <td style='text-align:center; vertical-align:middle;'>
+        <div style="
+            width: 100%; 
+            height: 100%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            overflow: hidden; 
+            border-radius: 8px;
+            background: #f0f0f0;
+            border: 1px solid #ddd;">
+            <img src="assets/photo/LdDtRKchg-7mTewJAhO8aVkizxOZiJNHvvUhbpGCDM_fros7mmiPXqAQN-JeDC9guooAdTdJN2sb2yIyJU6ws8Ju0okRUPUqNTHmdvISMrPGlh1RFtHlUFKF8Nc_SigTTEGiFstJaDVFRJS-owciqjTjKGMkWTJEH5inlrwOsSxMwOsudIKXgIJzRDiRmDk0zZ0PPzTDKRokXjOsbO1fCzTL4W0OXjYGp1PH1vujDqCDV6bQyMFEkAqHA.jpg" 
+                alt="Фото" 
+                style="
+                    width: 100%; 
+                    height: 100%; 
+                    max-width: 100px;
+                    max-height: 100px;
+                    object-fit: cover;
+                    display: block;">
+        </div>
+        </td>
+    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/adrianov_about'>Адрианов про разработку</a></td>
+    <td style='word-wrap: break-word;'>Канал Flutter TeamLead с большим опытом</td>
+  </tr>
+  <tr>
+    <td style='text-align:center; vertical-align:middle;'>
+        <div style="
+            width: 100%; 
+            height: 100%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            overflow: hidden; 
+            border-radius: 8px;
+            background: #f0f0f0;
+            border: 1px solid #ddd;">
+            <img src="assets/photo/QKGbD0asOauqhjrSPMB-tCoOUIjJHekDkoIKpjXG6iFuBcJpzxioyc8AjKsABFQym_5aauGWGsHvO6psfKWznoGTZCmdimKsDWAXtjRoYGVivTlbeaTst6h6nQMJ_gFZyfRS0DCV8cq1pOKo1Vc1I9fL-iG-sZUIt8_cAbOOHPNdZPH2HgVi8FSMI547yabiF3i_w9-NFGYl6ddU-NJ6gLG4_kXHIRpd9JfN3_Jx-agh0LI_rGCLki8Oi.jpg" 
+                alt="Фото" 
+                style="
+                    width: 100%; 
+                    height: 100%; 
+                    max-width: 100px;
+                    max-height: 100px;
+                    object-fit: cover;
+                    display: block;">
+        </div>
+        </td>
+    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/dartlang_jobs'>Dart Jobs</a></td>
+    <td style='word-wrap: break-word;'>Канал для поиска работы</td>
   </tr>
 </table>
 
