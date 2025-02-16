@@ -56,7 +56,7 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
-            <img src="assets/photo/mtmB6iJl7_LnZMz2WD3Mndgagz0OhPsuHJBQ3IMYyRQnm2qEngUMc281lwRYaf4fy6HhBkgoWDqkwR2oEUjoOJ5eGvqbdm5hjDU1U9aBMdAoTH6GHigLJn4GVmh8_ijbL5TC-zH452vNFow_fDOSwryz46xr890k8ILlrVEIC0wqiklrXmuwheik0viW-cGcltMPnS_sic8ItdDX1oAFYJPlRv08hd2Jm3MUEflxdInpUGcGQWSmrmLHi.jpg" 
+            <img src="assets/photo/fIqsODqVfUcf2qRrAXHVH6Zo__Z0VKXILJfeF_Jg8-8nT2k27B9iLxCkBxIR8zF0_qB7L4pjM4wugpn88SrHrP7Dig7sFyZpTJ6RrmqOrnRA5BDJchxBcRKZycJuKVTlUn2uQTeVSyfXQA5WRfuTIINwALL2UjuTar4F4DAw032ppt7msvKGGRUOqQz0OltExfM2YL8n3nOsqH1f8Zbxwwxh1P78uiw6By49ZJO5upPibDJbBfK1MWHsL.jpg" 
                 alt="Фото" 
                 style="
                     width: 100%; 
@@ -541,7 +541,7 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
-            <img src="assets/photo/mtmB6iJl7_LnZMz2WD3Mndgagz0OhPsuHJBQ3IMYyRQnm2qEngUMc281lwRYaf4fy6HhBkgoWDqkwR2oEUjoOJ5eGvqbdm5hjDU1U9aBMdAoTH6GHigLJn4GVmh8_ijbL5TC-zH452vNFow_fDOSwryz46xr890k8ILlrVEIC0wqiklrXmuwheik0viW-cGcltMPnS_sic8ItdDX1oAFYJPlRv08hd2Jm3MUEflxdInpUGcGQWSmrmLHi.jpg" 
+            <img src="assets/photo/fIqsODqVfUcf2qRrAXHVH6Zo__Z0VKXILJfeF_Jg8-8nT2k27B9iLxCkBxIR8zF0_qB7L4pjM4wugpn88SrHrP7Dig7sFyZpTJ6RrmqOrnRA5BDJchxBcRKZycJuKVTlUn2uQTeVSyfXQA5WRfuTIINwALL2UjuTar4F4DAw032ppt7msvKGGRUOqQz0OltExfM2YL8n3nOsqH1f8Zbxwwxh1P78uiw6By49ZJO5upPibDJbBfK1MWHsL.jpg" 
                 alt="Фото" 
                 style="
                     width: 100%; 
