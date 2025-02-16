@@ -17,7 +17,7 @@
     "name": "Mobile Tech",
     "url": "@mdevnotes",
     "alias": "@mdevnotes",
-    "desc": "Michael Lazebny's blog about @dart and @flutter",
+    "desc": "Michael Lazebny's blog about Dart and Flutter",
     "photo": "assets/photo/fT5NvA0JAepjK03bBm7qgje4vRXGsCD6SRIQdPiQgZj2qAHFTT9b20L7DCS0Zt0WXLnQq6td2lx08kF43_YdhnzLOrlxoC8G38ghpUiUm1nWCfAxlaC_7O1GRjxcYbqaUopvUFxRqiFZ0k1zcpawSpwIU_FEeBm8986qDSV19c-bNXplFMXIRujbonXCZLGyQFxN_vmit56V3UKkoNcF1fIAz7_mqz2-h0G2CZBzfJQYoUMweN8-lWEAn.jpg"
   },
   {
@@ -28,7 +28,7 @@
     "photo": "assets/photo/dgSKsEIlm9DhGyvL6XOups7mR7RDbGhHRZ8LmiVvdxiZB0kgg51XJ4ZsB693J_sCf2TxVjIAA4Oodj8Qx3q_2mIbuvYsGYnSSSbLZxt6gX8VEdJOzHJ6aiVmM_lZxFEcxnSlaYKmBNWdUQe5pxRBbeYKIn7LUIXk2B5ABFM2royh2--Y4jtQQv3ll5gRQw-VGEaptNZNKBEDO6XixbJthh6XvCknZ2BUD8KINTtNfGKdVge_GIGlw6KFG.jpg"
   },
   {
-    "name": "Dart:\nTips Of The Day",
+    "name": "Dart: Tips Of The Day",
     "url": "@dart_tips",
     "alias": "@dart_tips",
     "desc": "Daily tips about Dart programming language",
