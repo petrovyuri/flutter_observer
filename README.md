@@ -30,7 +30,7 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
-            <img src="assets/photo/Мобильный разработчик | Петров Юрий.jpg" 
+            <img src="assets/photo/Мобильный разработчик Петров Юрий.jpg" 
                 alt="Фото" 
                 style="
                     width: 100%; 
@@ -82,7 +82,7 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
-            <img src="assets/photo/Стас Ильин | Flutter.jpg" 
+            <img src="assets/photo/Стас Ильин Flutter.jpg" 
                 alt="Фото" 
                 style="
                     width: 100%; 
@@ -108,7 +108,7 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
-            <img src="assets/photo/MADTeacher | Станислав Чернышев.jpg" 
+            <img src="assets/photo/MADTeacher Станислав Чернышев.jpg" 
                 alt="Фото" 
                 style="
                     width: 100%; 
@@ -645,7 +645,7 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
-            <img src="assets/photo/Dart: Tips Of The Day.jpg" 
+            <img src="assets/photo/Dart Tips Of The Day.jpg" 
                 alt="Фото" 
                 style="
                     width: 100%; 
@@ -835,7 +835,7 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
-            <img src="assets/photo/Dart | Flutter.jpg" 
+            <img src="assets/photo/Dart Flutter.jpg" 
                 alt="Фото" 
                 style="
                     width: 100%; 
