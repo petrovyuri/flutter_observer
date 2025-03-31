@@ -25,13 +25,20 @@
     "url": "@ru_dart",
     "alias": "@ru_dart",
     "desc": "Чат сообщества, посвященный Flutter и Dart",
-    "photo":"assets/photo/CiW4wd2exlh7m-0IsyNw05JsrZT5boANHz8wvoaELtseMR4EreJy_C_3kPNdLI-G67Rvr7eUPF33S6Ht63QDsxke7kyn7FEtx4PQivnLbAH9V_7lBg5svCT7aglamsXeELGp-MeoY0fNLa7MZQo9F9ZoQURaRU3HimqrFMZeSLOewP7GbMnKUaqyU48oPF3Edv4iSH0tge2HOubuEZoW0QgSbMBLGVdJ_-NpTcwPdljREKREmMMOaJ51Z.jpg"
+    "photo": "assets/photo/CiW4wd2exlh7m-0IsyNw05JsrZT5boANHz8wvoaELtseMR4EreJy_C_3kPNdLI-G67Rvr7eUPF33S6Ht63QDsxke7kyn7FEtx4PQivnLbAH9V_7lBg5svCT7aglamsXeELGp-MeoY0fNLa7MZQo9F9ZoQURaRU3HimqrFMZeSLOewP7GbMnKUaqyU48oPF3Edv4iSH0tge2HOubuEZoW0QgSbMBLGVdJ_-NpTcwPdljREKREmMMOaJ51Z.jpg"
   },
   {
     "name": "Flutter Dev Podcast — чат",
     "url": "@flutterdevpodcast",
     "alias": "@flutterdevpodcast",
     "desc": "Комната для обсуждения Flutter Dev подкаста",
-    "photo":"assets/photo/hWGfA0XNfUWc332mt_xyW8otgwbJPzBJCgebyireQu5XkJe3QcD7fprvYNkypi4xKdAObWMbZM3JSDliJLy8Wnnkm-HqsmZJh_NvuMcE3pGlp18l5b1pPd_5RGOaZYUYGnB2kRYqXA7mbkUpwc2NAMvUWVjeIl9EImAXaJIiPKaAKBSEeIeVRnx9ut9nonbWFdkuib_zT5zQMz_ym9JT85zZG6vhx7Jq3KTIQdd_Ui6aWxAGHZydrTtjv.jpg"
+    "photo": "assets/photo/hWGfA0XNfUWc332mt_xyW8otgwbJPzBJCgebyireQu5XkJe3QcD7fprvYNkypi4xKdAObWMbZM3JSDliJLy8Wnnkm-HqsmZJh_NvuMcE3pGlp18l5b1pPd_5RGOaZYUYGnB2kRYqXA7mbkUpwc2NAMvUWVjeIl9EImAXaJIiPKaAKBSEeIeVRnx9ut9nonbWFdkuib_zT5zQMz_ym9JT85zZG6vhx7Jq3KTIQdd_Ui6aWxAGHZydrTtjv.jpg"
+  },
+  {
+    "name": "Flutter Mad Fans",
+    "url": "@flutter_mad_fans",
+    "alias": "@flutter_mad_fans",
+    "desc": "Комьюнити Flutter-разработчиков от Mad Brains.",
+    "photo": "assets/photo/Flutter Mad Fans.jpg"
   }
 ]
