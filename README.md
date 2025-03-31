@@ -766,7 +766,7 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
-            <img src="assets/photo/[RU] Dart & Flutter.jpg" 
+            <img src="assets/photo/ruDartFlutter.jpg" 
                 alt="Фото" 
                 style="
                     width: 100%; 
