@@ -19,5 +19,12 @@
     "alias": "@en_dart",
     "desc": "EN Dart and Flutter community. Publish news, tools, tutorial and everything you need to know about Flutter",
     "photo": "assets/photo/[EN] Dart & Flutter.jpg"
+  },
+  {
+    "name": "Flutter Guys",
+    "url": "@flutterguysgp",
+    "alias": "@flutterguysgp",
+    "desc": "The official Flutter Guys community",
+    "photo": "assets/photo/Flutter Guys.jpg"
   }
 ]
