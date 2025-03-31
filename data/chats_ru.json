@@ -33,5 +33,12 @@
     "alias": "@flutterdevpodcast",
     "desc": "Комната для обсуждения Flutter Dev подкаста",
     "photo": "assets/photo/Flutter Dev Podcast — чат.jpg"
+  },
+  {
+    "name": "Flutter Mad Fans",
+    "url": "@flutter_mad_fans",
+    "alias": "@flutter_mad_fans",
+    "desc": "Комьюнити Flutter-разработчиков от Mad Brains.",
+    "photo": "assets/photo/Flutter Mad Fans.jpg"
   }
 ]
