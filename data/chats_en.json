@@ -19,5 +19,12 @@
     "alias": "@flutterguysgp",
     "desc": "The official Flutter Guys community",
     "photo": "assets/photo/Flutter Guys.jpg"
+  },
+  {
+    "name": "Flutter chat",
+    "url": "@flutter8",
+    "alias": "@flutter8",
+    "desc": "Flutter developers community",
+    "photo": "assets/photo/flutterchat.jpg"
   }
 ]

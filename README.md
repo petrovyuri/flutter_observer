@@ -927,6 +927,32 @@
     <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/flutterguysgp'>Flutter Guys</a></td>
     <td style='word-wrap: break-word;'>The official Flutter Guys community</td>
   </tr>
+  <tr>
+    <td style='text-align:center; vertical-align:middle;'>
+        <div style="
+            width: 100%; 
+            height: 100%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            overflow: hidden; 
+            border-radius: 8px;
+            background: #f0f0f0;
+            border: 1px solid #ddd;">
+            <img src="assets/photo/flutterchat.jpg" 
+                alt="Фото" 
+                style="
+                    width: 100%; 
+                    height: 100%; 
+                    max-width: 100px;
+                    max-height: 100px;
+                    object-fit: cover;
+                    display: block;">
+        </div>
+        </td>
+    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/flutter8'>Flutter chat</a></td>
+    <td style='word-wrap: break-word;'>Flutter developers community</td>
+  </tr>
 </table>
 
 <!-- END CHATS EN -->
