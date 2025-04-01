@@ -45,6 +45,7 @@ header {
     flex-direction: column;
     align-items: flex-start;
     margin-bottom: 1rem;
+    position: relative;
 }
 
 h1 {
@@ -228,5 +229,21 @@ h1 {
 
 .header-subcontent a {
     align-self: flex-end;
+}
+
+/* GitHub иконка */
+.github-link {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.github-link:hover {
+    transform: scale(1.2);
+    color: #f0f0f0;
 }
 
