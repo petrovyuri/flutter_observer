@@ -2,7 +2,7 @@ name: Update README in Pull Request
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
+    types: [opened, synchronize, reopened, edited]
 
 jobs:
   update-readme:
