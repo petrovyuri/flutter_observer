@@ -1,5 +1,12 @@
 [
   {
+    "name": "Основы Flutter",
+    "url": "@FlutterBasics",
+    "alias": "@FlutterBasics",
+    "desc": "Канал авторского коллектива книги Основы Flutter",
+    "photo": "assets/photo/flutter.jpg"
+  },
+  {
     "name": "Мобильный разработчик | Петров Юрий",
     "url": "@mobile_developing",
     "alias": "@mobile_developing",
