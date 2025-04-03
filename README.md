@@ -30,6 +30,32 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
+            <img src="assets/photo/flutter.jpg" 
+                alt="Фото" 
+                style="
+                    width: 100%; 
+                    height: 100%; 
+                    max-width: 100px;
+                    max-height: 100px;
+                    object-fit: cover;
+                    display: block;">
+        </div>
+        </td>
+    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/FlutterBasics'>Основы Flutter</a></td>
+    <td style='word-wrap: break-word;'>Канал авторского коллектива книги Основы Flutter</td>
+  </tr>
+  <tr>
+    <td style='text-align:center; vertical-align:middle;'>
+        <div style="
+            width: 100%; 
+            height: 100%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            overflow: hidden; 
+            border-radius: 8px;
+            background: #f0f0f0;
+            border: 1px solid #ddd;">
             <img src="assets/photo/Мобильный разработчик Петров Юрий.jpg" 
                 alt="Фото" 
                 style="
@@ -887,7 +913,7 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
-            <img src="assets/default_avatar.png" 
+            <img src="assets/photo/flutter.jpg" 
                 alt="Фото" 
                 style="
                     width: 100%; 
