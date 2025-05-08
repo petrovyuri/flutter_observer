@@ -685,6 +685,32 @@
     <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/dart_tips'>Dart: Tips Of The Day</a></td>
     <td style='word-wrap: break-word;'>Daily tips about Dart programming language</td>
   </tr>
+  <tr>
+    <td style='text-align:center; vertical-align:middle;'>
+        <div style="
+            width: 100%; 
+            height: 100%; 
+            display: flex; 
+            justify-content: center; 
+            align-items: center; 
+            overflow: hidden; 
+            border-radius: 8px;
+            background: #f0f0f0;
+            border: 1px solid #ddd;">
+            <img src="assets/photo/DeconstructingFlutter.png" 
+                alt="Фото" 
+                style="
+                    width: 100%; 
+                    height: 100%; 
+                    max-width: 100px;
+                    max-height: 100px;
+                    object-fit: cover;
+                    display: block;">
+        </div>
+        </td>
+    <td style='white-space: nowrap; overflow: hidden; text-overflow: ellipsis;'><a href='https://t.me/deconstructing_flutter'>Deconstructing Flutter</a></td>
+    <td style='word-wrap: break-word;'>Articles by Roman Ismagilov, plus weekly compilations of Flutter learning resources</td>
+  </tr>
 </table>
 
 <!-- END CHANNELS EN -->
@@ -714,7 +740,7 @@
             border-radius: 8px;
             background: #f0f0f0;
             border: 1px solid #ddd;">
-            <img src="assets/photo/Хижина программиста.jpg" 
+            <img src="assets/photo/dev_hut.jpg" 
                 alt="Фото" 
                 style="
                     width: 100%; 
